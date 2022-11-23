@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="edu.jmu.wylcon.ui.home.HomeFragment"
+        android:label="联系人主页"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_newcon"
+            app:destination="@id/navigation_newcon"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_group"
+        android:name="edu.jmu.wylcon.ui.group.GroupFragment"
+        android:label="联系人群组"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="edu.jmu.wylcon.ui.search.SearchFragment"
+        android:label="搜索联系人"
+        tools:layout="@layout/fragment_group" />
+
+    <fragment
+        android:id="@+id/navigation_newcon"
+        android:name="edu.jmu.wylcon.ui.home.NewContact"
+        android:label="新建联系人"
+        tools:layout="@layout/contact_new" >
+        <action
+            android:id="@+id/action_navigation_newcon_home"
+            app:destination="@id/navigation_home"
+            app:popUpTo="@id/navigation_home"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_editcon"
+        android:name="edu.jmu.wylcon.ui.home.EditContact"
+        android:label="编辑联系人"
+        tools:layout="@layout/contact_edit" >
+        <action
+            android:id="@+id/action_navigation_editcon_home"
+            app:destination="@id/navigation_home"
+            app:popUpTo="@id/navigation_home"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_deletecon"
+        android:name="edu.jmu.wylcon.ui.home.DeleteContact"
+        android:label="删除联系人"
+        tools:layout="@layout/contact_delete" >
+        <action
+            android:id="@+id/action_navigation_deletecon_home"
+            app:destination="@id/navigation_home"
+            app:popUpTo="@id/navigation_home"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_mergecon"
+        android:name="edu.jmu.wylcon.ui.home.MergeContact"
+        android:label="合并联系人"
+        tools:layout="@layout/contact_merge" >
+        <action
+            android:id="@+id/action_navigation_mergecon_home"
+            app:destination="@id/navigation_home"
+            app:popUpTo="@id/navigation_home"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+
+
+</navigation>

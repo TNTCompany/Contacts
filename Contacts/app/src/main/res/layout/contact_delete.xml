@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/ded8"
+        android:layout_width="210sp"
+        android:layout_height="36sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="email@example.com"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/dtextView3"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView7" />
+
+    <TextView
+        android:id="@+id/dtextView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="183dp"
+        android:text="邮箱："
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <TextView
+        android:id="@+id/dtextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="删除联系人"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dtextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="12dp"
+        android:text="请输入 ID："
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <EditText
+        android:id="@+id/ded1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Name"
+        app:layout_constraintStart_toEndOf="@+id/dtextView3"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <TextView
+        android:id="@+id/dtextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="110dp"
+        android:text="电话："
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <TextView
+        android:id="@+id/dtextView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="*"
+        android:textColor="#FF0000"
+        android:textSize="34sp"
+        app:layout_constraintStart_toEndOf="@+id/ded1"
+        app:layout_constraintTop_toTopOf="@+id/ded1" />
+
+    <EditText
+        android:id="@+id/ded2"
+        android:layout_width="180sp"
+        android:layout_height="36sp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="224dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Mail, prov, city, add"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/dtextView3"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <EditText
+        android:id="@+id/ded4"
+        android:layout_width="180sp"
+        android:layout_height="36sp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Mail, prov, city, add"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/dtextView3"
+        app:layout_constraintTop_toBottomOf="@+id/ded3" />
+
+    <TextView
+        android:id="@+id/dtextView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="如果属于多个群组，将用逗号 &quot;,&quot; 分隔开"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ded6" />
+
+    <TextView
+        android:id="@+id/dtextView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="24dp"
+        android:text="邮编"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/ded2"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <TextView
+        android:id="@+id/dtextView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="468dp"
+        android:text="备注："
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <EditText
+        android:id="@+id/ded7"
+        android:layout_width="200sp"
+        android:layout_height="36sp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="122dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="explanation"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/dtextView3"
+        app:layout_constraintTop_toBottomOf="@+id/ded4" />
+
+    <EditText
+        android:id="@+id/ded5"
+        android:layout_width="180sp"
+        android:layout_height="36sp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Mail, prov, city, add"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/dtextView3"
+        app:layout_constraintTop_toBottomOf="@+id/ded4" />
+
+    <TextView
+        android:id="@+id/dtextView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="292dp"
+        android:text="地址："
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <TextView
+        android:id="@+id/dtextView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="398dp"
+        android:text="群组："
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <TextView
+        android:id="@+id/dtextView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="24dp"
+        android:text="城市"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/ded2"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <EditText
+        android:id="@+id/ded6"
+        android:layout_width="200sp"
+        android:layout_height="36sp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="group"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/dtextView3"
+        app:layout_constraintTop_toBottomOf="@+id/ded4" />
+
+    <TextView
+        android:id="@+id/dtextView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="24dp"
+        android:text="省份"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/ded2"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <EditText
+        android:id="@+id/ded3"
+        android:layout_width="180sp"
+        android:layout_height="36sp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Mail, prov, city, add"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/dtextView3"
+        app:layout_constraintTop_toBottomOf="@+id/ded2" />
+
+    <TextView
+        android:id="@+id/dtextView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="24dp"
+        android:text="住址"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/ded2"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <TextView
+        android:id="@+id/dtextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="53dp"
+        android:text="姓名："
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <Button
+        android:id="@+id/dbutton7"
+        android:layout_width="128dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="56dp"
+        android:text="返回"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="98dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="pN"
+        app:layout_constraintStart_toEndOf="@+id/dtextView3"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <Button
+        android:id="@+id/dbutton4"
+        android:layout_width="128dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="56dp"
+        android:text="删除"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/dtextView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="如果有多个电话号码，将用逗号 &quot;,&quot; 分隔开"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ded" />
+
+    <EditText
+        android:id="@+id/deleteID"
+        android:layout_width="79dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/dtextView4"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+    <Button
+        android:id="@+id/dbutton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-5dp"
+        android:text="搜索该 ID"
+        app:layout_constraintStart_toEndOf="@+id/deleteID"
+        app:layout_constraintTop_toBottomOf="@+id/dtextView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
