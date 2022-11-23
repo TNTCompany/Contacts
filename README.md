@@ -1,2 +1,3 @@
-# title
-An Android Contacts Application Demo
+# Description
+An Android Contacts Application Demo.
+Only support Simplified Chinese.
