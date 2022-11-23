@@ -1,2 +1,2 @@
 # title
-An Android Contants Application Demo
+An Android Contacts Application Demo
